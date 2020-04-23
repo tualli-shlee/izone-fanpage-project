@@ -1,0 +1,37 @@
+body{
+    background-color: #cee5d5;
+}
+img{
+    width : 500px;  
+}
+#ball{
+    width:60%;
+    text-align: center;
+    margin:15px auto;
+}
+#ball>div{
+    border : 3px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    display: inline-block;
+    transition: 1s;
+}
+#ball>div:hover{
+    width: 70px;
+    height: 70px;
+    border-width: 5.25px;
+}
+#main{
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+div{
+    -webkit-touch-callout: none;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
